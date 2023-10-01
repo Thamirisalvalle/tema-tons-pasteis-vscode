@@ -1,0 +1,36 @@
+{
+  "name": "thamiris",
+  "displayName": "dark-pastel-tones-theme",
+  "description": "Tema criado com fundo Dark e as cores em tons pasteis.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+
+  "icon": "icon.jpg",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thamirisalvalle/tema-tons-pasteis-vscode.git"
+  },
+
+  "keywords": [
+    "dark",
+    "tones-pastel",
+    "tons-pasteis",
+    "tones-pastel-dark",
+    "tons-pasteis-dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "dark-pastel-tones-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pastel-tones-color-theme.json"
+      }
+    ]
+  }
+}
